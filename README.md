@@ -14,7 +14,12 @@ An interpretable artificial intelligence model to predict the diseases, as well 
 
 
 ## Guideline for utilizing:
-```python
+```bash
+# Step1. clone the project
+git clone https://github.com/TencentAILabHealthcare/VDJMiner
+# Step2. change directory to project
+cd VDJMiner
+# Step3. run VDJMiner
 python vdj_miner.py --target=TARGET --result_dir=Result_DIR
 ```
 - target: target disease
@@ -22,7 +27,8 @@ python vdj_miner.py --target=TARGET --result_dir=Result_DIR
 
 ## example
 You can set the target value as one of [Asthma|AutoImmune Disease|Cancer|Chronic Kidney Disease|Congestive Heart Failure|Copd|Coronary Artery Disease|Diabetes|Hospitalized Covid-19].
-```python
+
+```bash
 python vdj_miner.py --target='Cancer' --result_dir='./results'
 ```
 
