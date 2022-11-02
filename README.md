@@ -13,6 +13,10 @@ An interpretable artificial intelligence model to predict the diseases, as well 
 - pyerf==1.0.1
 
 
+## Data availability
+The raw data and relative information are given at `RawData` folder. The preprocessed data are given in the folder `Data`, where the data for a specific task are stored in a python pickle file named with the task name.
+
+
 ## Guideline for utilizing:
 ```bash
 # Step1. clone the project
